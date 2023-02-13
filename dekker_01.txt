@@ -1,0 +1,44 @@
+Script started on 2023-02-13 20:07:45+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="134" LINES="27"]
+[?2004h]0;prpa@prpa: ~[01;32mprpa@prpa[00m:[01;34m~[00m$ git clone ^H[K[K [7mhttps://github.com/jamart25/Dekkerprpa.git[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chttps://github.com/jamart25/Dekkerprpa.git
+[?2004lCloning into 'Dekkerprpa'...
+warning: You appear to have cloned an empty repository.
+[?2004h]0;prpa@prpa: ~[01;32mprpa@prpa[00m:[01;34m~[00m$ ls
+[?2004ldekker_01.txt  [0m[01;34mDekkerprpa[0m  [01;34mDescargas[0m  [01;34mDesktop[0m  [01;34mDocumentos[0m  [01;34mImágenes[0m  [01;34mMúsica[0m  [01;34mPlantillas[0m  [01;34mprpa[0m  [01;34mPúblico[0m  [01;34msnap[0m  [01;34mVídeos[0m
+[?2004h]0;prpa@prpa: ~[01;32mprpa@prpa[00m:[01;34m~[00m$ cd dekker[K[K[K[K[K[KDekkerprpa
+[?2004l[?2004h]0;prpa@prpa: ~/Dekkerprpa[01;32mprpa@prpa[00m:[01;34m~/Dekkerprpa[00m$ cp Descargars/[K[K[K[Kas/*.py -[K.[K[K[K[K[K[KDekker/*.py . 
+[?2004lcp: cannot stat 'Descargas/Dekker/*.py': No such file or directory
+[?2004h]0;prpa@prpa: ~/Dekkerprpa[01;32mprpa@prpa[00m:[01;34m~/Dekkerprpa[00m$ ls[K[Kcp
+[?2004lcp: missing file operand
+Try 'cp --help' for more information.
+[?2004h]0;prpa@prpa: ~/Dekkerprpa[01;32mprpa@prpa[00m:[01;34m~/Dekkerprpa[00m$ cd
+[?2004l[?2004h]0;prpa@prpa: ~[01;32mprpa@prpa[00m:[01;34m~[00m$ cd Descargas
+[?2004l[?2004h]0;prpa@prpa: ~/Descargas[01;32mprpa@prpa[00m:[01;34m~/Descargas[00m$ ls
+[?2004l0_procesos.py  1_procesos.py  3_procesos.py  4_procesos.py  decker.pdf  [0m[01;34mdekker[0m  multiprocessing_01.txt  [01;34mnueva_carpeta[0m
+[?2004h]0;prpa@prpa: ~/Descargas[01;32mprpa@prpa[00m:[01;34m~/Descargas[00m$ lscd Descargas[Kp Descargas/Dekker/*.py . [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K dekker/*.py Dekkerprpa
+[?2004lcp: target 'Dekkerprpa' is not a directory
+[?2004h]0;prpa@prpa: ~/Descargas[01;32mprpa@prpa[00m:[01;34m~/Descargas[00m$ cp dekker/*.py Dekkerprpals[Kcp dekker/*.py Dekkerprpa[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd
+[?2004l[?2004h]0;prpa@prpa: ~[01;32mprpa@prpa[00m:[01;34m~[00m$ cp Descargas/dekker/.*py[K[K[K[K*py Dekkerprpa
+[?2004l[?2004h]0;prpa@prpa: ~[01;32mprpa@prpa[00m:[01;34m~[00m$ cd[Kd Dekkerprpa
+[?2004l[?2004h]0;prpa@prpa: ~/Dekkerprpa[01;32mprpa@prpa[00m:[01;34m~/Dekkerprpa[00m$ git add .
+[?2004l[?2004h]0;prpa@prpa: ~/Dekkerprpa[01;32mprpa@prpa[00m:[01;34m~/Dekkerprpa[00m$ git commit -m "Primer intento"
+[?2004l[main (root-commit) bb47f85] Primer intento
+ 4 files changed, 219 insertions(+)
+ create mode 100644 01.py
+ create mode 100644 02.py
+ create mode 100644 03.py
+ create mode 100644 04_Decker.py
+[?2004h]0;prpa@prpa: ~/Dekkerprpa[01;32mprpa@prpa[00m:[01;34m~/Dekkerprpa[00m$ git push[Kh
+[?2004lUsername for 'https://github.com': jamart25@ucm.es
+Password for 'https://jamart25@ucm.es@github.com': 
+Enumerating objects: 6, done.
+Counting objects:  16% (1/6)Counting objects:  33% (2/6)Counting objects:  50% (3/6)Counting objects:  66% (4/6)Counting objects:  83% (5/6)Counting objects: 100% (6/6)Counting objects: 100% (6/6), done.
+Compressing objects:  16% (1/6)Compressing objects:  33% (2/6)Compressing objects:  50% (3/6)Compressing objects:  66% (4/6)Compressing objects:  83% (5/6)Compressing objects: 100% (6/6)Compressing objects: 100% (6/6), done.
+Writing objects:  16% (1/6)Writing objects:  33% (2/6)Writing objects:  66% (4/6)Writing objects: 100% (6/6)Writing objects: 100% (6/6), 1.15 KiB | 589.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/3)[Kremote: Resolving deltas:  33% (1/3)[Kremote: Resolving deltas:  66% (2/3)[Kremote: Resolving deltas: 100% (3/3)[Kremote: Resolving deltas: 100% (3/3), done.[K
+To https://github.com/jamart25/Dekkerprpa.git
+ * [new branch]      main -> main
+[?2004h]0;prpa@prpa: ~/Dekkerprpa[01;32mprpa@prpa[00m:[01;34m~/Dekkerprpa[00m$ [?2004l
+exit
+
+Script done on 2023-02-13 20:18:12+01:00 [COMMAND_EXIT_CODE="0"]
